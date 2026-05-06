@@ -116,6 +116,7 @@ function startGame() {
     matched = new Set();                                 // clear all matched cards
     locked = false;                                      // make sure the board is unlocked
     document.getElementById('resultBox').style.display = 'none';        // hide the result overlay
+    document.getElementById('startBtn').style.display = 'none';         // hide the start button once game begins
     document.getElementById('message').textContent = 'Find matching sounds!';  // show the instruction message
     render();                                            // draw the fresh grid
 }
