@@ -105,7 +105,7 @@ function startRound() {
     }, SHOW_TIME);
 }
 
-document.getElementById("startBtn").addEventListener("click", startRound);
+
 
 document.getElementById("restartBtn").addEventListener("click", () => {
     currentRound = 0;
